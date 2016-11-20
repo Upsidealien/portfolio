@@ -24,7 +24,7 @@ app.controller('ResumeController', ['$scope', function($scope) {
   $scope.experiences = [
     {
       name: 'RotaGeek',
-      year: '2014-2016'
+      year: '2014-2016',
       title: 'QA Lead | Developer',
       desc: 'Leading the the QA department and full stack development'
     }
