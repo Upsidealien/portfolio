@@ -13,3 +13,13 @@ body {
   color: #39A488;
   text-align: center;
 }
+
+.panel-default > .panel-heading {
+  background-color: #E0EBE8;
+  border-color: #ddd;
+  color: #39A488;
+}
+
+a {
+  color: #39A488;
+}

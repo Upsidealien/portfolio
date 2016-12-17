@@ -33,30 +33,34 @@ app.controller('ResumeController', ['$scope', function($scope) {
   $scope.skills = [
       {
         name: 'FRONTEND',
-        desc: 'HTML, CSS, ANGULAR, JAVASCRIPT, JQUERY, BOOTSTRAP'
+        desc: 'HTML, CSS, Angular, Javascript'
       },
       {
         name: 'BACKEND',
-        desc: 'C# .NET, PYTHON, GIT'
+        desc: 'C# .NET, Python, GIT'
       },
       {
         name: 'MOBILE',
-        desc: 'XAMARIN FORMS, XAMARIN'
+        desc: 'Xamarin Forms, Xamarin, iOS, Android'
       },
       {
         name: 'WORKING ON',
-        desc: 'MACHINE LEARNING, AMAZON AWS, D3.JS'
+        desc: 'Machine Learning, Amazon AWS, D3.JS'
       }
   ];
 
   $scope.projects = [
       {
         name: 'TMSv1',
-        desc: 'Amazing stuff'
+        desc: 'Amazing stuff',
+        link: 'https://www.google.com',
+        imgsrc: ''
       },
       {
         name: 'Clocks',
-        desc: 'HTML, CSS and D3.js to develop several novel web pages for telling the time'
+        desc: 'HTML, CSS and D3.js to develop several novel web pages for telling the time',
+        link: 'https://www.google.com',
+        imgsrc: ''
       }
   ];
 }]);
