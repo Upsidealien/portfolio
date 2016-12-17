@@ -3,7 +3,7 @@ app.controller('ResumeController', ['$scope', function($scope) {
   $scope.name = 'Thomas Cartwright';
   $scope.title = 'FULL STACK DEVELOPER | QA TESTER';
   $scope.email = 'TJCARTWRIGHT91@GMAIL.COM';
-  $scope.aboutMe = 'Im currently working as a full stack developer and QA lead at a tech startup in Melbourne. Originally from Scotland, I studied in Edinburgh, living in London after graduating and recently moved to Melbourne. In my spare time I cycle, surf, travel and programme' ;
+  $scope.aboutMe = 'Im currently working as a full stack developer and QA lead at a tech startup in Melbourne. Originally from Scotland, I studied in Edinburgh, living in London after graduating and recently moved to Melbourne. In my spare time I cycle, surf, travel and programme.' ;
 
 
   $scope.courses = [

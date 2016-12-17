@@ -1,0 +1,15 @@
+.jumbotron {
+  width:100vw;
+  margin-left: calc(-1 * ((100vw - 100%) / 2));
+  color: #39A488;
+  background-color: #E0EBE8;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.sub-title {
+  color: #39A488;
+  text-align: center;
+}
