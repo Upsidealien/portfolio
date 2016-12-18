@@ -1,7 +1,7 @@
 app.controller('ResumeController', ['$scope', function($scope) {
 
   $scope.name = 'I\'m Tom';
-  $scope.title = 'FULL STACK DEVELOPER | QA TESTER';
+  $scope.title = 'FULL STACK DEVELOPER - QA TESTER';
   $scope.email = 'TJCARTWRIGHT91@GMAIL.COM';
   $scope.aboutMe = 'Im currently working as a full stack developer and QA lead at a tech startup in Melbourne. Originally from Scotland, I studied in Edinburgh, living in London after graduating and recently moved to Melbourne. In my spare time I cycle, surf, travel and programme.' ;
 
@@ -25,7 +25,7 @@ app.controller('ResumeController', ['$scope', function($scope) {
     {
       name: 'RotaGeek',
       year: '2014-2016',
-      title: 'QA Lead | Developer',
+      title: 'QA Lead - Developer',
       desc: 'Leading the the QA department and full stack development'
     }
   ];
@@ -51,14 +51,14 @@ app.controller('ResumeController', ['$scope', function($scope) {
 
   $scope.projects = [
       {
-        name: 'TMSv1',
-        desc: 'Amazing stuff',
+        name: '2048',
+        desc: 'I recreated the new popular 2048 game using Javascript, HTML and CSS.',
         link: 'https://www.google.com',
         imgsrc: ''
       },
       {
         name: 'Clocks',
-        desc: 'HTML, CSS and D3.js to develop several novel web pages for telling the time',
+        desc: 'I used HTML, CSS, Javascript and D3.js to develop several novel clocks',
         link: 'https://www.google.com',
         imgsrc: ''
       }
